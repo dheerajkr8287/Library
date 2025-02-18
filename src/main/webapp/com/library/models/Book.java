@@ -6,7 +6,7 @@ public class Book {
     private String author;
     private String genre;
 
-    // ✅ Constructor with parameters
+
     public Book(int id, String title, String author, String genre) {
         this.id = id;
         this.title = title;
@@ -14,13 +14,13 @@ public class Book {
         this.genre = genre;
     }
 
-    // ✅ Getter methods
+
     public int getId() { return id; }
     public String getTitle() { return title; }
     public String getAuthor() { return author; }
     public String getGenre() { return genre; }
 
-    // ✅ Setter methods
+
     public void setId(int id) { this.id = id; }
     public void setTitle(String title) { this.title = title; }
     public void setAuthor(String author) { this.author = author; }
